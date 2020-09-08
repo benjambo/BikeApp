@@ -107,9 +107,9 @@ export const Bikes = () => {
           </Form>
           <Nav className="ml-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/bikes">Bikes</Nav.Link>
+            <Nav.Link href="#/bikes">Bikes</Nav.Link>
             <NavDropdown title="Maps" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/maps">Maps</NavDropdown.Item>
+              <NavDropdown.Item href="#/maps">Maps</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://benjambo.github.io/portfolio/#/">
                 Benjambo
