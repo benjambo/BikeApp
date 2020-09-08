@@ -18,7 +18,7 @@ const App = () => {
         <NavigationBar />
         <div className="container">
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/home" component={Home} />
             <Route path="/bikes" component={Bikes} />
             <Route path="/maps" component={Mapper} />
           </Switch>
