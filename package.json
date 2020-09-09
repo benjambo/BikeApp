@@ -2,7 +2,7 @@
   "name": "bikesapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://benjambo.github.io/BikeApp/",
+  "homepage": "https://benjambo.github.io/BikeApp/#/home",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",

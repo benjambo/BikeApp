@@ -30,12 +30,12 @@ td {
 
 /* Maps */
 .leaflet-container {
-  width: 100%;
-  height: 100vh;
+  height: 80vh;
 }
 
-.map-container {
-
+.map-container h3, p {
+  color: black;
+  text-align: center;
 }
 
 .leaflet-top .leaflet-control {
