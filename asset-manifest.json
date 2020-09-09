@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/BikeApp/static/css/main.a3e73d7e.chunk.css",
-    "main.js": "/BikeApp/static/js/main.1c13ee2e.chunk.js",
-    "main.js.map": "/BikeApp/static/js/main.1c13ee2e.chunk.js.map",
+    "main.css": "/BikeApp/static/css/main.99d6186c.chunk.css",
+    "main.js": "/BikeApp/static/js/main.43dad615.chunk.js",
+    "main.js.map": "/BikeApp/static/js/main.43dad615.chunk.js.map",
     "runtime-main.js": "/BikeApp/static/js/runtime-main.d3f62de4.js",
     "runtime-main.js.map": "/BikeApp/static/js/runtime-main.d3f62de4.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/BikeApp/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.74876565.chunk.js": "/BikeApp/static/js/2.74876565.chunk.js",
-    "static/js/2.74876565.chunk.js.map": "/BikeApp/static/js/2.74876565.chunk.js.map",
+    "static/js/2.9f06d8e6.chunk.js": "/BikeApp/static/js/2.9f06d8e6.chunk.js",
+    "static/js/2.9f06d8e6.chunk.js.map": "/BikeApp/static/js/2.9f06d8e6.chunk.js.map",
     "index.html": "/BikeApp/index.html",
-    "precache-manifest.3b0addde9a1fd0be3a01e63d39ede9a4.js": "/BikeApp/precache-manifest.3b0addde9a1fd0be3a01e63d39ede9a4.js",
+    "precache-manifest.80c0d3c0cdfea0495b4716b8363aa2d9.js": "/BikeApp/precache-manifest.80c0d3c0cdfea0495b4716b8363aa2d9.js",
     "service-worker.js": "/BikeApp/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/BikeApp/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.a3e73d7e.chunk.css.map": "/BikeApp/static/css/main.a3e73d7e.chunk.css.map",
-    "static/js/2.74876565.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.74876565.chunk.js.LICENSE.txt"
+    "static/css/main.99d6186c.chunk.css.map": "/BikeApp/static/css/main.99d6186c.chunk.css.map",
+    "static/js/2.9f06d8e6.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.9f06d8e6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d3f62de4.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.74876565.chunk.js",
-    "static/css/main.a3e73d7e.chunk.css",
-    "static/js/main.1c13ee2e.chunk.js"
+    "static/js/2.9f06d8e6.chunk.js",
+    "static/css/main.99d6186c.chunk.css",
+    "static/js/main.43dad615.chunk.js"
   ]
 }
