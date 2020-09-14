@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/BikeApp/static/css/main.4cf45054.chunk.css",
-    "main.js": "/BikeApp/static/js/main.61b6a6c2.chunk.js",
-    "main.js.map": "/BikeApp/static/js/main.61b6a6c2.chunk.js.map",
+    "main.css": "/BikeApp/static/css/main.2434586e.chunk.css",
+    "main.js": "/BikeApp/static/js/main.ec53c49e.chunk.js",
+    "main.js.map": "/BikeApp/static/js/main.ec53c49e.chunk.js.map",
     "runtime-main.js": "/BikeApp/static/js/runtime-main.d3f62de4.js",
     "runtime-main.js.map": "/BikeApp/static/js/runtime-main.d3f62de4.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/BikeApp/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.34d4be37.chunk.js": "/BikeApp/static/js/2.34d4be37.chunk.js",
-    "static/js/2.34d4be37.chunk.js.map": "/BikeApp/static/js/2.34d4be37.chunk.js.map",
+    "static/js/2.d0a23c35.chunk.js": "/BikeApp/static/js/2.d0a23c35.chunk.js",
+    "static/js/2.d0a23c35.chunk.js.map": "/BikeApp/static/js/2.d0a23c35.chunk.js.map",
     "index.html": "/BikeApp/index.html",
-    "precache-manifest.48f5f112f2296c4dcfa0f74ee15b00e3.js": "/BikeApp/precache-manifest.48f5f112f2296c4dcfa0f74ee15b00e3.js",
+    "precache-manifest.cc74a5b1c38d198287e7bda17a267df6.js": "/BikeApp/precache-manifest.cc74a5b1c38d198287e7bda17a267df6.js",
     "service-worker.js": "/BikeApp/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/BikeApp/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.4cf45054.chunk.css.map": "/BikeApp/static/css/main.4cf45054.chunk.css.map",
-    "static/js/2.34d4be37.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.34d4be37.chunk.js.LICENSE.txt",
+    "static/css/main.2434586e.chunk.css.map": "/BikeApp/static/css/main.2434586e.chunk.css.map",
+    "static/js/2.d0a23c35.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.d0a23c35.chunk.js.LICENSE.txt",
     "static/media/App.css": "/BikeApp/static/media/weather.74ddf605.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d3f62de4.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.34d4be37.chunk.js",
-    "static/css/main.4cf45054.chunk.css",
-    "static/js/main.61b6a6c2.chunk.js"
+    "static/js/2.d0a23c35.chunk.js",
+    "static/css/main.2434586e.chunk.css",
+    "static/js/main.ec53c49e.chunk.js"
   ]
 }

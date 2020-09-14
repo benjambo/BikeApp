@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6f0f53a0d33550e0e4a40a10ff5a906c",
+    "revision": "81e53ef77c02fe084973500ecc5bcf28",
     "url": "/BikeApp/index.html"
   },
   {
-    "revision": "6ea394e1cc04ccccd90c",
+    "revision": "8a980ab00f99cc47e859",
     "url": "/BikeApp/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "c7d447bd406fdc1defce",
-    "url": "/BikeApp/static/css/main.4cf45054.chunk.css"
+    "revision": "3616400a18fcfd17726b",
+    "url": "/BikeApp/static/css/main.2434586e.chunk.css"
   },
   {
-    "revision": "6ea394e1cc04ccccd90c",
-    "url": "/BikeApp/static/js/2.34d4be37.chunk.js"
+    "revision": "8a980ab00f99cc47e859",
+    "url": "/BikeApp/static/js/2.d0a23c35.chunk.js"
   },
   {
     "revision": "c8f4238afe9b5d33761aa288ebe870db",
-    "url": "/BikeApp/static/js/2.34d4be37.chunk.js.LICENSE.txt"
+    "url": "/BikeApp/static/js/2.d0a23c35.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7d447bd406fdc1defce",
-    "url": "/BikeApp/static/js/main.61b6a6c2.chunk.js"
+    "revision": "3616400a18fcfd17726b",
+    "url": "/BikeApp/static/js/main.ec53c49e.chunk.js"
   },
   {
     "revision": "f016d4c8c97dd535555e",
