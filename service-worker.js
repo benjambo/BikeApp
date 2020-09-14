@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/BikeApp/precache-manifest.cc74a5b1c38d198287e7bda17a267df6.js"
+  "/BikeApp/precache-manifest.9e15ac46535f503bd77a9e06d65094c1.js"
 );
 
 self.addEventListener('message', (event) => {
