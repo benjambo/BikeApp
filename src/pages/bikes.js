@@ -106,12 +106,17 @@ export const Bikes = () => {
             <Button variant="outline-dark">Search</Button>
           </Form>
           <Nav className="ml-auto">
-            <Nav.Link href="#/home">Home</Nav.Link>
+            <Nav.Link href="#/">Home</Nav.Link>
             <Nav.Link href="#/bikes">Bikes</Nav.Link>
-            <NavDropdown title="Maps" id="basic-nav-dropdown">
+            <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#/maps">Maps</NavDropdown.Item>
+              <NavDropdown.Item href="#/weather">Weather</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://benjambo.github.io/portfolio/#/">
+              <NavDropdown.Item
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://benjambo.github.io/portfolio/#/"
+              >
                 Benjambo
               </NavDropdown.Item>
             </NavDropdown>
@@ -119,13 +124,13 @@ export const Bikes = () => {
         </Navbar.Collapse>
       </Navbar>
       <div className="App">
-        <h1>Alepa-pyörä Websivusto</h1>
+        <h1>Helsinki Citybike Webpage</h1>
         <table className="tables">
           <thead>
             <tr>
-              <th>Pyöräasema: </th>
-              <th>Saatavilla olevat pyörät: </th>
-              <th>Vapaita paikkoja jäljellä: </th>
+              <th>Bike station: </th>
+              <th>Bikes available: </th>
+              <th>Empty slots left: </th>
             </tr>
           </thead>
           <BikeItem bikes={bike} />

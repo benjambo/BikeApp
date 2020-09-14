@@ -6,6 +6,7 @@ import './App.css'
 import { Bikes } from './pages/bikes'
 import { Home } from './pages/home'
 import { Mapper } from './pages/map'
+import { Weather } from './components/Weather'
 
 // Components
 import NavigationBar from './components/NavigationBar'
@@ -18,9 +19,10 @@ const App = () => {
         <NavigationBar />
         <div className="container">
           <Switch>
-            <Route exact path="/home" component={Home} />
+            <Route exact path="/" component={Home} />
             <Route path="/bikes" component={Bikes} />
             <Route path="/maps" component={Mapper} />
+            <Route path="/weather" component={Weather} />
           </Switch>
         </div>
       </div>

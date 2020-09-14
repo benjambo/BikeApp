@@ -58,12 +58,17 @@ const NavigationBar = () => {
         <Navbar.Toggle area-controls="basic-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Nav.Link href="#/home">Home</Nav.Link>
+            <Nav.Link href="#/">Home</Nav.Link>
             <Nav.Link href="#/bikes">Bikes</Nav.Link>
             <NavDropdown title="More" id="basic-nav-dropdown">
               <NavDropdown.Item href="#/maps">Maps</NavDropdown.Item>
+              <NavDropdown.Item href="#/weather">Weather</NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="https://benjambo.github.io/portfolio/#/">
+              <NavDropdown.Item
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://benjambo.github.io/portfolio/#/"
+              >
                 Benjambo
               </NavDropdown.Item>
             </NavDropdown>
