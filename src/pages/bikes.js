@@ -1,60 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import {
-  Button,
-  Form,
-  FormControl,
-  Nav,
-  Navbar,
-  NavDropdown,
-} from 'react-bootstrap'
-import styled from 'styled-components'
-
-const Styles = styled.div`
-  form {
-    width: auto;
-  }
-  button {
-    margin: 1vh;
-  }
-  .navbar {
-    background-color: black;
-  }
-  .navbar-default,
-  .collapsed {
-    border-color: white;
-    background-color: white;
-  }
-  .navbar-default,
-  .toggle {
-    background-color: white;
-  }
-  .navbar-brand,
-  .navbar-nav .nav-link {
-    color: white;
-    margin: 2vh 2vw 2vh 2vw;
-    &:hover {
-      color: #690505;
-    }
-  }
-  .navbar-light .navbar-nav .nav-link {
-    color: white;
-    &:hover {
-      color: #690505;
-    }
-  }
-  .navbar-light .navbar-brand {
-    color: white;
-    &:hover {
-      color: #690505;
-    }
-  }
-  .dropdown {
-    color: black;
-    &:hover {
-      color: #690505;
-    }
-  }
-`
 
 export const Bikes = () => {
   const [bike, setBike] = useState([])
@@ -83,48 +27,25 @@ export const Bikes = () => {
     return <tbody>{mapBikes()}</tbody>
   }
 
-  // hHndle user input in search field
+  // Handle user input in search field
   const handleFilterChange = (event) => {
     setNewFilter(event.target.value)
     console.log(event.target.value)
   }
 
   return (
-    <Styles>
-      <Navbar expand="lg" fixed="top">
-        <Navbar.Brand href="/">Bikes</Navbar.Brand>
-        <Navbar.Toggle area-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Form inline>
-            <FormControl
-              type="text"
-              placeholder="Search"
-              className="mr-sm-2"
-              value={newFilter}
-              onChange={handleFilterChange}
-            />
-            <Button variant="outline-dark">Search</Button>
-          </Form>
-          <Nav className="ml-auto">
-            <Nav.Link href="#/">Home</Nav.Link>
-            <Nav.Link href="#/bikes">Bikes</Nav.Link>
-            <NavDropdown title="More" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#/maps">Maps</NavDropdown.Item>
-              <NavDropdown.Item href="#/weather">Weather</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://benjambo.github.io/portfolio/#/"
-              >
-                Benjambo
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      <div className="App">
+      <div className="pages">
         <h1>Helsinki Citybike Webpage</h1>
+        <div className="search-box">
+          <input
+            type="text"
+            className="search-bar"
+            placeholder="Search..."
+            onChange={handleFilterChange}
+            value={newFilter}
+            onKeyPress={handleFilterChange}
+          />
+        </div>
         <table className="tables">
           <thead>
             <tr>
@@ -136,6 +57,5 @@ export const Bikes = () => {
           <BikeItem bikes={bike} />
         </table>
       </div>
-    </Styles>
   )
 }

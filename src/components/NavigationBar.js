@@ -11,7 +11,7 @@ const Styles = styled.div`
     margin: 1vh;
   }
   .navbar {
-    background-color: black;
+    background-color: rgba(0,0,0,0.8);
   }
   .navbar-default,
   .collapsed {
@@ -54,7 +54,7 @@ const NavigationBar = () => {
   return (
     <Styles>
       <Navbar expand="lg" fixed="top">
-        <Navbar.Brand href="/">Bikes</Navbar.Brand>
+        <Navbar.Brand href="#/">Bikes</Navbar.Brand>
         <Navbar.Toggle area-controls="basic-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
