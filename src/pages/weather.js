@@ -21,6 +21,7 @@ export const Weather = () => {
     }
   }
 
+  // Formating date
   const dateFormat = () => {
     let date = new Intl.DateTimeFormat('en-GB', {
       weekday: 'long',
@@ -88,20 +89,3 @@ export const Weather = () => {
 }
 
 export default Weather
-
-/*
-        <div>
-            <div className="location-box">
-              <div className="location">
-                Helsinki, Finland
-              </div>
-              <div className="date">{dateBuilder(new Date())}</div>
-            </div>
-            <div className="weather-box">
-              <div className="temp"> 10°c</div>
-              <div className="weather-description">
-                Cold
-              </div>
-            </div>
-        </div>
-*/

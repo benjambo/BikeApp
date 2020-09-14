@@ -6,7 +6,7 @@ import './App.css'
 import { Bikes } from './pages/bikes'
 import { Home } from './pages/home'
 import { Mapper } from './pages/map'
-import { Weather } from './components/Weather'
+import { Weather } from './pages/weather'
 
 // Components
 import NavigationBar from './components/NavigationBar'
