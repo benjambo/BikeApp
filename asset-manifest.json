@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/BikeApp/static/css/main.1d6aecc4.chunk.css",
-    "main.js": "/BikeApp/static/js/main.d0fbe03e.chunk.js",
-    "main.js.map": "/BikeApp/static/js/main.d0fbe03e.chunk.js.map",
+    "main.js": "/BikeApp/static/js/main.b580a277.chunk.js",
+    "main.js.map": "/BikeApp/static/js/main.b580a277.chunk.js.map",
     "runtime-main.js": "/BikeApp/static/js/runtime-main.d3f62de4.js",
     "runtime-main.js.map": "/BikeApp/static/js/runtime-main.d3f62de4.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/BikeApp/static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.16a6ae4a.chunk.js": "/BikeApp/static/js/2.16a6ae4a.chunk.js",
     "static/js/2.16a6ae4a.chunk.js.map": "/BikeApp/static/js/2.16a6ae4a.chunk.js.map",
     "index.html": "/BikeApp/index.html",
-    "precache-manifest.8342373f6776b52201bc8a91e683f8ea.js": "/BikeApp/precache-manifest.8342373f6776b52201bc8a91e683f8ea.js",
+    "precache-manifest.0e6aac2f33a30db2bda48d172216b51b.js": "/BikeApp/precache-manifest.0e6aac2f33a30db2bda48d172216b51b.js",
     "service-worker.js": "/BikeApp/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/BikeApp/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.1d6aecc4.chunk.css.map": "/BikeApp/static/css/main.1d6aecc4.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.16a6ae4a.chunk.js",
     "static/css/main.1d6aecc4.chunk.css",
-    "static/js/main.d0fbe03e.chunk.js"
+    "static/js/main.b580a277.chunk.js"
   ]
 }
