@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/BikeApp/static/css/main.ea4e7584.chunk.css",
+    "main.css": "/BikeApp/static/css/main.f5cc3910.chunk.css",
     "main.js": "/BikeApp/static/js/main.61b6a6c2.chunk.js",
     "main.js.map": "/BikeApp/static/js/main.61b6a6c2.chunk.js.map",
     "runtime-main.js": "/BikeApp/static/js/runtime-main.d3f62de4.js",
@@ -9,10 +9,10 @@
     "static/js/2.34d4be37.chunk.js": "/BikeApp/static/js/2.34d4be37.chunk.js",
     "static/js/2.34d4be37.chunk.js.map": "/BikeApp/static/js/2.34d4be37.chunk.js.map",
     "index.html": "/BikeApp/index.html",
-    "precache-manifest.4b1eac96fc6da68217e560c9def642d8.js": "/BikeApp/precache-manifest.4b1eac96fc6da68217e560c9def642d8.js",
+    "precache-manifest.8634fba1033505ca5776d64373158627.js": "/BikeApp/precache-manifest.8634fba1033505ca5776d64373158627.js",
     "service-worker.js": "/BikeApp/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/BikeApp/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.ea4e7584.chunk.css.map": "/BikeApp/static/css/main.ea4e7584.chunk.css.map",
+    "static/css/main.f5cc3910.chunk.css.map": "/BikeApp/static/css/main.f5cc3910.chunk.css.map",
     "static/js/2.34d4be37.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.34d4be37.chunk.js.LICENSE.txt",
     "static/media/App.css": "/BikeApp/static/media/weather.74ddf605.jpg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.d3f62de4.js",
     "static/css/2.8aa5a7f8.chunk.css",
     "static/js/2.34d4be37.chunk.js",
-    "static/css/main.ea4e7584.chunk.css",
+    "static/css/main.f5cc3910.chunk.css",
     "static/js/main.61b6a6c2.chunk.js"
   ]
 }
