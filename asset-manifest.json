@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/BikeApp/static/css/main.6f09f8f9.chunk.css",
-    "main.js": "/BikeApp/static/js/main.0479ad7b.chunk.js",
-    "main.js.map": "/BikeApp/static/js/main.0479ad7b.chunk.js.map",
+    "main.css": "/BikeApp/static/css/main.1d6aecc4.chunk.css",
+    "main.js": "/BikeApp/static/js/main.a000dc6e.chunk.js",
+    "main.js.map": "/BikeApp/static/js/main.a000dc6e.chunk.js.map",
     "runtime-main.js": "/BikeApp/static/js/runtime-main.d3f62de4.js",
     "runtime-main.js.map": "/BikeApp/static/js/runtime-main.d3f62de4.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/BikeApp/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.d0a23c35.chunk.js": "/BikeApp/static/js/2.d0a23c35.chunk.js",
-    "static/js/2.d0a23c35.chunk.js.map": "/BikeApp/static/js/2.d0a23c35.chunk.js.map",
+    "static/js/2.16a6ae4a.chunk.js": "/BikeApp/static/js/2.16a6ae4a.chunk.js",
+    "static/js/2.16a6ae4a.chunk.js.map": "/BikeApp/static/js/2.16a6ae4a.chunk.js.map",
     "index.html": "/BikeApp/index.html",
-    "precache-manifest.0ab22af627986ea2c8bbe2caf70b31af.js": "/BikeApp/precache-manifest.0ab22af627986ea2c8bbe2caf70b31af.js",
+    "precache-manifest.b95f517b2603b36a6f4d881a3536679a.js": "/BikeApp/precache-manifest.b95f517b2603b36a6f4d881a3536679a.js",
     "service-worker.js": "/BikeApp/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/BikeApp/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.6f09f8f9.chunk.css.map": "/BikeApp/static/css/main.6f09f8f9.chunk.css.map",
-    "static/js/2.d0a23c35.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.d0a23c35.chunk.js.LICENSE.txt",
+    "static/css/main.1d6aecc4.chunk.css.map": "/BikeApp/static/css/main.1d6aecc4.chunk.css.map",
+    "static/js/2.16a6ae4a.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.16a6ae4a.chunk.js.LICENSE.txt",
+    "static/media/bikemobile.jpg": "/BikeApp/static/media/bikemobile.57c87a94.jpg",
     "static/media/App.css": "/BikeApp/static/media/weather.74ddf605.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d3f62de4.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.d0a23c35.chunk.js",
-    "static/css/main.6f09f8f9.chunk.css",
-    "static/js/main.0479ad7b.chunk.js"
+    "static/js/2.16a6ae4a.chunk.js",
+    "static/css/main.1d6aecc4.chunk.css",
+    "static/js/main.a000dc6e.chunk.js"
   ]
 }
