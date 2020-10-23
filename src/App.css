@@ -31,6 +31,47 @@ html {
   color: black !important;
 }
 
+/* Navigation Bar */
+
+form {
+  width: auto;
+}
+button {
+  margin: 1vh;
+}
+.navbar {
+  background-color: black;
+}
+.navbar-default,
+.collapsed {
+  border-color: #3e444a !important;
+}
+.navbar-default,
+.toggle {
+  background-color: white !important;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: white !important;
+  margin: 2vh 2vw 2vh 2vw !important;
+}
+.navbar-brand:hover,
+.navbar-nav:hover .nav-link:hover {
+  color: #474747 !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white !important;
+}
+.navbar-light:hover .navbar-nav:hover .nav-link:hover {
+  color: #474747 !important;
+}
+.navbar-light .navbar-brand {
+  color: white !important;
+}
+.navbar-light:hover .navbar-brand:hover {
+  color: #474747 !important;
+}
+
 /* Home */
 
 .showcase {
@@ -132,6 +173,10 @@ td {
   color: white !important;
 }
 
+.progress-bar {
+  background-color: springgreen !important;
+}
+
 .searcher {
   padding: 2vh;
   margin-left: auto;
@@ -193,6 +238,10 @@ p {
 h2,
 td {
   color: black;
+}
+
+.leaflet-control td {
+  color: black !important;
 }
 
 /* Weather */
@@ -346,6 +395,10 @@ main {
     display: none !important;
   }
 
+  .video-container {
+  background: url("./assets/cover1.png") no-repeat center;
+}
+
   /* Maps */
 
   .leaflet-container {
@@ -353,8 +406,8 @@ main {
   }
 
   .pages {
-  margin-top: 11vh;
-}
+    margin-top: 11vh;
+  }
 }
 
 /* Media for Smaller Screens PART 2 */

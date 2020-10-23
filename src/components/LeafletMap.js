@@ -1,5 +1,5 @@
 import React from 'react'
-import { Map, TileLayer} from 'react-leaflet'
+import { Map, TileLayer } from 'react-leaflet'
 import Routing from './Routing'
 
 class MapComponent extends React.Component {

@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import Table from 'react-bootstrap/Table'
+import Button from 'react-bootstrap/Button'
+import { FormControl } from 'react-bootstrap'
+import ProgressBar from 'react-bootstrap/ProgressBar'
+//import FadeInSection from '../components/FadeInSection'
 
 export const Bikes = () => {
   const [bike, setBike] = useState([])
@@ -21,19 +25,26 @@ export const Bikes = () => {
         .map((bike) => (
           <tr key={bike.id}>
             <td>{bike.name}</td>
-            <td>{bike.free_bikes}</td>
-            <td>{bike.empty_slots}</td>
+            <td>
+              {bike.free_bikes} / {bike.free_bikes + bike.empty_slots}
+              <ProgressBar
+                now={bike.free_bikes}
+                max={bike.free_bikes + bike.empty_slots}
+              />
+            </td>
           </tr>
         ))
-        return <Table striped bordered hover variant="dark">
-          <thead>
-            <tr>
-              <th>Bike stations by name: </th>
-              <th>Bikes available: </th>
-              <th>Empty slots: </th>
-            </tr>
-          </thead>
-          <tbody>{mapBikes()}</tbody></Table>
+    return (
+      <Table striped bordered hover variant="dark">
+        <thead>
+          <tr>
+            <th>Bike stations by name: </th>
+            <th>Bikes available: </th>
+          </tr>
+        </thead>
+        <tbody>{mapBikes()}</tbody>
+      </Table>
+    )
   }
 
   // Handle user input in search field
@@ -43,23 +54,24 @@ export const Bikes = () => {
   }
 
   return (
-      <div className="searcher">
-        <h1>Helsinki Citybikes</h1>
-        <div className="search-box" style={{ display: 'flex', justifyContent: 'center' }}>
-          <input
-            type="text"
-            className="search-bar"
-            placeholder="Search..."
-            onChange={handleFilterChange}
-            value={newFilter}
-            onKeyPress={handleFilterChange}
-          />
-          <button type="submit" className="search-bar-button">
-              Search
-            </button>
-        </div>
-          <BikeItem bikes={bike} />        
+    <div className="searcher">
+      <h1>Helsinki Citybikes</h1>
+      <div
+        className="search-box"
+        style={{ display: 'flex', justifyContent: 'center' }}
+      >
+        <FormControl
+          type="text"
+          placeholder="Search"
+          onChange={handleFilterChange}
+          className=" mr-sm-2"
+        />
+        <Button type="submit" variant="dark" className="search-bar-button">
+          Search
+        </Button>
       </div>
+      <BikeItem bikes={bike} />
+    </div>
   )
 }
 
