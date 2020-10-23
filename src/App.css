@@ -16,7 +16,6 @@ html {
 
 .App {
   text-align: center;
-  padding: 2vh;
   background: black;
 }
 
@@ -28,19 +27,152 @@ html {
   margin-top: 8vh;
 }
 
-/* Bike Table */
-th,
-td {
+#material {
+  color: black !important;
+}
+
+/* Home */
+
+.showcase {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-container video {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
+.video-container:after {
+  content: '';
+  z-index: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+}
+
+.video-content {
+  z-index: 2;
+  border-radius: 16px;
   padding: 2vh;
 }
 
-.tables {
+.video-content h1 {
+  margin: 2vh;
+}
+
+.video-content p {
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+  color: #fff !important;
+  border-radius: 5px;
+  border: solid #fff 1px;
+  margin-top: 25px;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+#about {
+  padding: 40px;
+  text-align: center;
+}
+
+#about p {
+  font-size: 1.2rem;
+  max-width: 600px;
   margin: auto;
+  color: #fff;
+}
+
+#about h2 {
+  margin: 30px 0;
+}
+
+#about h1 {
+  margin: auto;
+}
+
+.social a {
+  margin: 0 5px;
+}
+
+/* Bike Table */
+th,
+td {
+  color: white !important;
+}
+
+.searcher {
+  padding: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+}
+
+.search-bar-button {
+  padding: 0.5vh;
+  margin: auto auto auto 2vh;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 5px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+
+  color: black;
+
+  transition: 0.4s ease-out;
+}
+
+.search-bar-button:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.search-bar-button:focus {
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
 /* Maps */
 .leaflet-container {
-  height: 80vh;
+  height: 100vh;
 }
 
 .map-container h3,
@@ -53,25 +185,35 @@ p {
   margin: 2vh;
 }
 
+.leaflet-control {
+  background: rgba(255, 255, 255, 0.75);
+}
+
+.leaflet-control h3,
+h2,
+td {
+  color: black;
+}
+
 /* Weather */
 
 .weather {
-  background-image: url('./assets/weather.jpg');
+  background-image: url('./assets/land.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
-  border-radius: 26px;
+  height: 100vh;
 }
 
 .weather.cold {
-  background-image: url('./assets/cold.jpg');
+  background-image: url('./assets/colder.jpg');
   background-size: cover;
   background-position: bottom;
-  transition: 0.4 ease-out;
 }
 
 .weather.warm {
-  background-image: url('./assets/warm.jpg');
+  background-image: url('./assets/warmer.jpg');
+  background-size: cover;
+  background-position: bottom;
 }
 
 .weather-empty p {
@@ -81,13 +223,9 @@ p {
 }
 
 main {
-  height: 50vh;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.75)
-  );
-  padding: 25px;
+  height: auto;
+  padding: 12vh 2vh 2vh 2vh;
+  border-radius: 24px;
 }
 
 .search-box {
@@ -96,9 +234,9 @@ main {
 }
 
 .search-box .search-bar {
-  display: block;
-  width: 100%;
-  padding: 15px;
+  width: 40vh;
+  padding: 10px;
+  margin-left: auto;
 
   appearance: none;
   background: none;
@@ -117,7 +255,7 @@ main {
 }
 
 .search-box .search-bar:hover {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .search-box .search-bar:focus {
@@ -170,30 +308,59 @@ main {
   text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
 }
 
-/* Media for Smaller Screens */
+/* Fade in Text */
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.4s ease, transform 0.6s ease;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+/* Media for Smaller Screens PART 1 */
 
 @media screen and (max-width: 1000px) {
   .App {
     padding: 0;
   }
 
-  .pages {
-    margin-top: 13vh;
-  }
-
   .assetsImage {
     height: auto;
-  }
-
-  /* Bike Table */
-  th,
-  td {
-    padding: 1vh;
   }
 }
 
 @media screen and (max-width: 550px) {
-  main {
+  .video-container {
+    /*background: url('./assets/cover.jpg') no-repeat center center/cover !important;*/
+    background-size: 200vh !important;
+  }
+
+  .myVideo {
+    display: none !important;
+  }
+
+  /* Maps */
+
+  .leaflet-container {
+    height: 100vh;
+  }
+
+  .pages {
+  margin-top: 11vh;
+}
+}
+
+/* Media for Smaller Screens PART 2 */
+
+@media screen and (max-width: 550px) {
+  /* main {
     height: 70vh;
     background-image: linear-gradient(
       to bottom,
@@ -201,11 +368,5 @@ main {
       rgba(0, 0, 0, 0.75)
     );
     padding: 25px;
-  }
-
-  /* Maps */
-
-  .leaflet-container {
-    height: 70vh;
-  }
+  }*/
 }

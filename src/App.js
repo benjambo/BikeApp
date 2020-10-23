@@ -11,18 +11,20 @@ import { Weather } from './pages/weather'
 // Components
 import NavigationBar from './components/NavigationBar'
 import 'bootstrap/dist/css/bootstrap.css'
+import LeafletMap from './components/LeafletMap'
 
 const App = () => {
   return (
     <Router>
       <div className="App">
         <NavigationBar />
-        <div className="container">
+        <div>
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/bikes" component={Bikes} />
             <Route path="/maps" component={Mapper} />
             <Route path="/weather" component={Weather} />
+            <Route path="/leaflet" component={LeafletMap} />
           </Switch>
         </div>
       </div>

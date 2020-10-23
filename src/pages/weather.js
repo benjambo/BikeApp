@@ -41,7 +41,6 @@ export const Weather = () => {
   }
 
   return (
-    <div className="pages">
       <div
         className={
           typeof weather.main != 'undefined'
@@ -84,7 +83,6 @@ export const Weather = () => {
           )}
         </main>
       </div>
-    </div>
   )
 }
 

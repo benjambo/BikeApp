@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Table from 'react-bootstrap/Table'
 
 export const Bikes = () => {
   const [bike, setBike] = useState([])
@@ -24,7 +25,15 @@ export const Bikes = () => {
             <td>{bike.empty_slots}</td>
           </tr>
         ))
-    return <tbody>{mapBikes()}</tbody>
+        return <Table striped bordered hover variant="dark">
+          <thead>
+            <tr>
+              <th>Bike stations by name: </th>
+              <th>Bikes available: </th>
+              <th>Empty slots: </th>
+            </tr>
+          </thead>
+          <tbody>{mapBikes()}</tbody></Table>
   }
 
   // Handle user input in search field
@@ -34,9 +43,9 @@ export const Bikes = () => {
   }
 
   return (
-      <div className="pages">
-        <h1>Helsinki Citybike Webpage</h1>
-        <div className="search-box">
+      <div className="searcher">
+        <h1>Helsinki Citybikes</h1>
+        <div className="search-box" style={{ display: 'flex', justifyContent: 'center' }}>
           <input
             type="text"
             className="search-bar"
@@ -45,17 +54,13 @@ export const Bikes = () => {
             value={newFilter}
             onKeyPress={handleFilterChange}
           />
+          <button type="submit" className="search-bar-button">
+              Search
+            </button>
         </div>
-        <table className="tables">
-          <thead>
-            <tr>
-              <th>Bike station: </th>
-              <th>Bikes available: </th>
-              <th>Empty slots left: </th>
-            </tr>
-          </thead>
-          <BikeItem bikes={bike} />
-        </table>
+          <BikeItem bikes={bike} />        
       </div>
   )
 }
+
+export default Bikes

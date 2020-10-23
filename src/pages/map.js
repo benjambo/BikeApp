@@ -9,16 +9,12 @@ const api = {
 export const Mapper = () => {
   const [bike, setBike] = useState([])
   const [activeBike, setActiveBike] = useState(null)
-
   const [weather, setWeather] = useState({})
 
   useEffect(() => {
     fetch('https://api.citybik.es/v2/networks/citybikes-helsinki')
       .then((res) => res.json())
       .then((res) => setBike(res.network.stations))
-  }, [])
-
-  useEffect(() => {
     fetch(`${api.base}weather?q=helsinki&units=metric&APPID=${api.key}`)
       .then((res) => res.json())
       .then((res) => setWeather(res))
