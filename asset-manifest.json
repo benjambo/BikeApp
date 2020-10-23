@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/BikeApp/static/css/main.7bb93219.chunk.css",
-    "main.js": "/BikeApp/static/js/main.0497f4e9.chunk.js",
-    "main.js.map": "/BikeApp/static/js/main.0497f4e9.chunk.js.map",
+    "main.css": "/BikeApp/static/css/main.186d9502.chunk.css",
+    "main.js": "/BikeApp/static/js/main.06e54f88.chunk.js",
+    "main.js.map": "/BikeApp/static/js/main.06e54f88.chunk.js.map",
     "runtime-main.js": "/BikeApp/static/js/runtime-main.db295308.js",
     "runtime-main.js.map": "/BikeApp/static/js/runtime-main.db295308.js.map",
     "static/css/2.926dbef4.chunk.css": "/BikeApp/static/css/2.926dbef4.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.58dddb1d.chunk.js.map": "/BikeApp/static/js/2.58dddb1d.chunk.js.map",
     "index.html": "/BikeApp/index.html",
     "static/css/2.926dbef4.chunk.css.map": "/BikeApp/static/css/2.926dbef4.chunk.css.map",
-    "static/css/main.7bb93219.chunk.css.map": "/BikeApp/static/css/main.7bb93219.chunk.css.map",
+    "static/css/main.186d9502.chunk.css.map": "/BikeApp/static/css/main.186d9502.chunk.css.map",
     "static/js/2.58dddb1d.chunk.js.LICENSE.txt": "/BikeApp/static/js/2.58dddb1d.chunk.js.LICENSE.txt",
     "static/media/biking.ed3ae535.mp4": "/BikeApp/static/media/biking.ed3ae535.mp4",
     "static/media/App.css": "/BikeApp/static/media/warmer.43db70ba.jpg"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.db295308.js",
     "static/css/2.926dbef4.chunk.css",
     "static/js/2.58dddb1d.chunk.js",
-    "static/css/main.7bb93219.chunk.css",
-    "static/js/main.0497f4e9.chunk.js"
+    "static/css/main.186d9502.chunk.css",
+    "static/js/main.06e54f88.chunk.js"
   ]
 }
